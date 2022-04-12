@@ -1,5 +1,5 @@
 
-function Header() {
+function Overlay() {
     return (
     <div className="index-wrapper">
       <h1 className="home-title">gareth</h1>
@@ -11,13 +11,13 @@ function Header() {
           </p>
           <p className="index-3">> see my <a style={{ color: `#44e407` }} href="https://github.com/gareth-xyz" target="_blank" rel="noopener noreferrer"> projects on github </a></p>
           <p className="index-4">
-            <a style={{ color: `#44e407` }} href="https://twitter.com/gareth_xyz" target="_blank" rel="noopener noreferrer">twitter </a> /  
-            <a style={{ color: `#44e407` }} href="mailto:gareth@garethv.xyz" target="_blank" rel="noopener noreferrer"> email</a> / 
-            <a style={{ color: `#44e407` }} href="https://github.com/gareth-xyz/3d-site" target="_blank" rel="noopener noreferrer"> this site</a>
+            <a style={{ color: `#44e407` }} href="https://twitter.com/gareth_xyz" target="_blank" rel="noopener noreferrer">twitter</a> /  
+            <a style={{ color: `#44e407` }} href="mailto:gareth@garethv.xyz" target="_blank" rel="noopener noreferrer"> email </a> / 
+            <a style={{ color: `#44e407` }} href="https://garethv.notion.site/Notes-c38d4b5b2cf944f0899244266e2fa3a9" target="_blank" rel="noopener noreferrer"> writing</a>
           </p>
         </div>
       </div>
     </div>
 )}
 
-export default Header;
+export default Overlay;

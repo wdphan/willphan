@@ -1,13 +1,282 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html,
+body,
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  background: #f0f0f0;
+}
+
+/* OVERLAY */
+
+h1 {
+  color: white;
+}
+
+.index-wrapper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top:0;
+  left:0;
+  padding-top:4rem;
+  padding-left:4rem;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  color: #44e407;
+  font-family: "Courier";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: normal;
+  word-wrap: break-word;
+  font-kerning: normal;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
+}
+
+/* typing animation */
+
+a:hover {
+  text-decoration: underline;
+}
+
+.css-typing p {
+  border-right: .15em solid #44e407;
+  font-family: "Courier";
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.css-typing p:nth-child(1) {
+  width: 100%;
+  -webkit-animation: type 3s steps(40, end);
+  animation: type 3s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(2) {
+  width: 100%;
+  opacity: 0;
+  -webkit-animation: type2 3s steps(40, end);
+  animation: type2 3s steps(40, end);
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(3) {
+  width: 100%;
+  opacity: 0;
+  -webkit-animation: type3 3s steps(40, end);
+  animation: type3 3s steps(40, end);
+  -webkit-animation-delay: 6s;
+  animation-delay: 6s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(4) {
+  width: 100%;
+  opacity: 0;
+  -webkit-animation: type4 3s steps(40, end);
+  animation: type4 3s steps(40, end);
+  -webkit-animation-delay: 8s;
+  animation-delay: 8s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid #44e407;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid #44e407;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid #44e407;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid #44e407;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    border:none;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    border:none;
+  }
+}
+
+@keyframes type4 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    border:none;
+  }
+}
+
+@-webkit-keyframes type4 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    border:none;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+
+  h1 {
+    font-size: 5vw;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+  .index-wrapper {
+    padding-top:1.5rem;
+    padding-left:1.5rem;
+  }
+
+  .css-typing p {
+    font-size: 2.5vw;
+  }
+
+}
+
+@media only screen and (min-width: 600px) {
+  
+  h1 {
+    font-size: 2em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+  .index-wrapper {
+    padding-top:4rem;
+    padding-left:4rem;
+  }
+
+  .css-typing p {
+    font-size: 2vw;
+  }
+
+}
+
+@media only screen and (min-width: 750px) {
+
+  h1 {
+    font-size: 2em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+  .css-typing p {
+    font-size: 1.7vw;
+  }
+
+} 
+
+@media only screen and (min-width: 992px) {
+
+  .css-typing p {
+    font-size: 14px;
+  }
+
+}
+
