@@ -1,22 +1,90 @@
-
 function Overlay() {
-    return (
+  return (
     <div className="index-wrapper">
-      <h1 className="home-title">gareth</h1>
-      <div style={{ display : `flex` }}>
+      <h1 className="typing">WILL PHAN</h1>
+      <div style={{ display: `flex` }}>
         <div className="css-typing">
-          <p className="index-1">web3 / blockchain developer</p>
-          <p className="index-2">building at <a style={{ color: `#44e407`  }} href="https://aave.com/" target="_blank" rel="noopener noreferrer">Aave</a>, previously <a style={{ color: `#44e407` }} href="https://www.jpmorgan.com/global" target="_blank" rel="noopener noreferrer">JPMorgan</a>
+          <p className="text">
+            A PERFECT IMPERFECTIONIST
+            <br /> <br />{" "}
+            <a
+              style={{ color: `white` }}
+              href="https://github.com/wdphan"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              BUILDING
+            </a>
+            <span> </span> &{" "}
+            <a
+              style={{ color: `white` }}
+              href="https://frost-sloop-bbc.notion.site/Web3-Learnings-54d10d04cee848e082cae8a62e7be8e2"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              EXPLORING
+            </a>
           </p>
-          <p className="index-3">><a style={{ color: `#44e407` }} href="https://garethv.notion.site/Notes-c38d4b5b2cf944f0899244266e2fa3a9" target="_blank" rel="noopener noreferrer"> notes</a></p>
-          <p className="index-3">><a style={{ color: `#44e407` }} href="https://github.com/0xgareth" target="_blank" rel="noopener noreferrer"> projects</a></p>
+          <p className="index-2">
+            >
+            <a
+              style={{ color: `white`, textDecoration: `None` }}
+              href="https://frost-sloop-bbc.notion.site/Twitter-Threads-3a462f7646e14e76a5a40ed123d31183"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              WRITING
+            </a>
+          </p>
+          <p className="index-3">
+            >
+            <a
+              style={{ color: `white`, textDecoration: `None` }}
+              href="https://frost-sloop-bbc.notion.site/Reading-List-cd99110df838443da117009fb9235f6c"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              READS
+            </a>
+          </p>
           <p className="index-4">
-            <a style={{ color: `#44e407`, textDecoration: `None` }} href="https://twitter.com/0x_gareth" target="_blank" rel="noopener noreferrer">twitter </a>/  
-            <a style={{ color: `#44e407`, textDecoration: `None` }} href="mailto:gareth@garethv.xyz" target="_blank" rel="noopener noreferrer"> email</a>
+            >
+            <a
+              style={{ color: `white`, textDecoration: `None` }}
+              href="https://willphan.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              NOTES (SOON)
+            </a>
+          </p>
+          <p className="index-5">
+            <a
+              style={{ color: `white`, textDecoration: `None` }}
+              href="https://twitter.com/willdphan"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              TWITTER{" "}
+            </a>
+            /
+            <a
+              style={{ color: `white`, textDecoration: `None` }}
+              href="mailto:willdphan@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              MAIL
+            </a>
           </p>
         </div>
       </div>
     </div>
-)}
+  );
+}
 
 export default Overlay;
