@@ -2,6 +2,8 @@ import { useEffect, useRef, useState, useMemo } from "react";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import { AsciiEffect } from "three-stdlib";
 
+// 3d figure
+
 function App() {
   return (
     <Canvas>

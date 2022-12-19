@@ -1,3 +1,5 @@
+// File that overlaps the app.js figure
+
 function Overlay() {
   return (
     <div className="index-wrapper">
@@ -25,16 +27,17 @@ function Overlay() {
               EXPLORING
             </a>
           </p>
+
           <p className="index-2">
             >
             <a
               style={{ color: `white`, textDecoration: `None` }}
-              href="https://frost-sloop-bbc.notion.site/Twitter-Threads-3a462f7646e14e76a5a40ed123d31183"
+              href="https://willphan.com"
               target="_blank"
               rel="noopener noreferrer"
             >
               {" "}
-              WRITING
+              PROJECTS
             </a>
           </p>
           <p className="index-3">
@@ -53,18 +56,18 @@ function Overlay() {
             >
             <a
               style={{ color: `white`, textDecoration: `None` }}
-              href="https://willphan.com"
+              href="https://frost-sloop-bbc.notion.site/Twitter-Threads-3a462f7646e14e76a5a40ed123d31183"
               target="_blank"
               rel="noopener noreferrer"
             >
               {" "}
-              NOTES (SOON)
+              WRITING
             </a>
           </p>
           <p className="index-5">
             <a
               style={{ color: `white`, textDecoration: `None` }}
-              href="https://twitter.com/willdphan"
+              href="https://frost-sloop-bbc.notion.site/Work-c5baf8c5775b473eaf90234fbdb6f6a0"
               target="_blank"
               rel="noopener noreferrer"
             >
