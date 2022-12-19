@@ -32,7 +32,7 @@ function Overlay() {
             >
             <a
               style={{ color: `white`, textDecoration: `None` }}
-              href="https://willphan.com"
+              href="https://frost-sloop-bbc.notion.site/Work-c5baf8c5775b473eaf90234fbdb6f6a0"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -67,7 +67,7 @@ function Overlay() {
           <p className="index-5">
             <a
               style={{ color: `white`, textDecoration: `None` }}
-              href="https://frost-sloop-bbc.notion.site/Work-c5baf8c5775b473eaf90234fbdb6f6a0"
+              href="https://twitter.com/willdphan"
               target="_blank"
               rel="noopener noreferrer"
             >
