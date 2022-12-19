@@ -44,7 +44,7 @@ function Overlay() {
             >
             <a
               style={{ color: `white`, textDecoration: `None` }}
-              href="https://frost-sloop-bbc.notion.site/Reading-List-cd99110df838443da117009fb9235f6c"
+              href="https://frost-sloop-bbc.notion.site/Library-034fc60526034e6c85f1f4fa605095e7"
               target="_blank"
               rel="noopener noreferrer"
             >
